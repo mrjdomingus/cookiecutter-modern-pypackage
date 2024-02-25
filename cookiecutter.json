@@ -1,9 +1,9 @@
 {
-  "given_names": "Federico",
-  "family_names": "Jaureguialzo",
+  "given_names": "Marcel",
+  "family_names": "Domingus",
   "full_name": "{{ cookiecutter.given_names }} {{ cookiecutter.family_names }}",
-  "email": "fedejaure@example.com",
-  "github_username": "fedejaure",
+  "email": "domingus@example.com",
+  "github_username": "mrjdomingus",
   "project_name": "modern-python-boilerplate",
   "project_slug": "{{ cookiecutter.project_name.lower().replace('-', '_') }}",
   "project_title": "{{ cookiecutter.project_name.replace('-', ' ').title() }}",
@@ -21,11 +21,13 @@
     "Typer",
     "No command-line interface"
   ],
-  "add_code_of_conduct": "y",
-  "add_contributing_file": "y",
+  "add_code_of_conduct": "n",
+  "add_contributing_file": "n",
   "add_security_file": "y",
   "add_codeowners_file": "y",
-  "add_funding_file": "y",
-  "add_citation_file": "y",
-  "contact_method": null
+  "add_funding_file": "n",
+  "add_citation_file": "n",
+  "add_vscode_launch_json_file": "y",
+  "add_poetry_toml_file": "y",  
+  "contact_method": "mail"
 }

@@ -11,12 +11,15 @@ authors:
   - given-names: Federico
     family-names: Jaureguialzo
     alias: fedejaure
+  - given-names: Marcel
+    family-names: Domingus
+    alias: mrjdomingus
 identifiers:
   - type: url
     value: >-
-      https://github.com/fedejaure/cookiecutter-modern-pypackage/releases/tag/v3.0.1
+      https://github.com/mrjdomingus/cookiecutter-modern-pypackage
     description: The Software Heritage link for version 3.0.1.
-repository-code: 'https://github.com/fedejaure/cookiecutter-modern-pypackage'
+repository-code: 'https://github.com/mrjdomingus/cookiecutter-modern-pypackage'
 abstract: Cookiecutter template for a modern Python package.
 keywords:
   - cookiecutter
