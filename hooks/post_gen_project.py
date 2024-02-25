@@ -101,5 +101,9 @@ if __name__ == "__main__":
     if "{{ cookiecutter.add_poetry_toml_file }}" == "y":
         add_poetry_toml_file()
 
+    # Remove {{cookiecutter.project_slug}}.py file from PROJECT_SRC
+    # Cannot have module with same name as package
+    Path.unlink(PROJECT_SRC / Path("{{ cookiecutter.project_slug }}.py"))
+
     add_symlink(PROJECT_DOCS / "readme.md", "../README.md")
     add_symlink(PROJECT_DOCS / "changelog.md", "../CHANGELOG.md")
